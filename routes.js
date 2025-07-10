@@ -5,7 +5,7 @@ const db=require('./dbConfig')
 
 
 router.get("/",(req,res)=>{
-    return res.send("backend is running successfully")
+    return res.send("backend is successfully deployed on render")
 })
 
 router.post("/send-mail-otp",async(req,res)=>{
